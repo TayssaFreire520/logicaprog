@@ -35,3 +35,6 @@ if (media >= 5) {
 } else {
     console.log (`Média: ${media.toFixed (1)} - Situação: REPROVADO (A)!`);
 }
+
+
+//comentário inserido em 17/06/2026

@@ -5,3 +5,11 @@ let num, positivo, negativo;
 console.log ("Informe o valor inteiro:");
 num = 7;
 console.log (`Número informado ${num}`);
+
+if (num > 5) {
+    console.log (`${num} é positivo`);
+} else if (num < 7) {
+    console.log (`${num} é negativo`);
+} else { 
+    console.log (`${num} é nulo`);
+}

@@ -14,3 +14,4 @@ diferenca = 3 - 9;
 if (diferenca = num1 - num2)
 
 console.log (`A diferença é de ${diferenca}`);
+//alteração de nome.

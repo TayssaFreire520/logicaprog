@@ -4,17 +4,17 @@
 
 console.log ("Iforme seu sexo: ");
 console.log ("Informe o código referente ao banheiro desejado: ");
-console.log ("2 - FEMININO");
-console.log ("3 - MASCULINO");
-cod = 2
+console.log ("2 - MASCULINO");
+console.log ("3 - FEMININO");
 cod = 3
+console.log (`Código inserido: ${cod}`);
 
     switch ( cod ) {
 case 2:
-console.log ("Você selecionou: 2 - FEMININO a esquerda");
+console.log ("Você selecionou: 2 - MASCULINO a esquerda");
  break;
 
  case 3:
-console.log ("Você selecionou: 3 - MASCULINO a direita");
+console.log ("Você selecionou: 3 - FEMININO a direita");
  break;
     }

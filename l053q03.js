@@ -3,6 +3,7 @@
 
 let num = 5; // Valor dado pelo usuário.
 let rest;
+console.log (`Informe um número: ${num}`);
 
 for (let cont = 1; cont <=10; cont++) {
     rest = num * cont;

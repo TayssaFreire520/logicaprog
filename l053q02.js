@@ -4,6 +4,10 @@
 let num = 7;
 let acum = 0;
 
+console.log ("informe um número");
+num =7;
+console.log (`Número inserido ${num}`);
+
 for ( let cont = 0; cont <= num; cont++ ) {
     acum = acum + cont;
 }

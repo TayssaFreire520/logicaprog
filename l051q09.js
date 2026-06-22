@@ -7,6 +7,6 @@ let acum = 0;
 while ( cont <=500 ) {
     acum = acum + cont;
     cont = cont +2;
-
+    
 }
 console.log (`A soma dos valores de 0 a 500 é ${acum}`);

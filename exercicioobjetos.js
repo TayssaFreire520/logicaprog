@@ -7,10 +7,11 @@ console.log (aluno.nome);
 console.log (`Idade: ${aluno.idade}`);
 
 if (aluno.matriculado) {
-    console.log ("Situação: ativo");
+    console.log ("Situação: matriculado");
 } else {
-    console.log ("Situação: inativo");
+    console.log ("Situação: não está matriculado");
 };
 
+//modificar a idade
 aluno.idade = 25;
-console.log (aluno.idade);
+console.log (aluno);

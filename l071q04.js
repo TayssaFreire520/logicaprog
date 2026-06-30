@@ -23,8 +23,8 @@ class Carro{
 
 } //fim da classe
 
-let carro1 = new Carro ("Fiat")
-let carro2 = new Carro
-let carro3 = new Carro
+let carro1 = new Carro ("Fiat", "Argo", 2026);
+let carro2 = new Carro ("Volkswagen","Polo", 2025);
 
-        
+carro1.exibirDetalhes();
+carro2.exibirDetalhes();      
